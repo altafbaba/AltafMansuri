@@ -452,8 +452,8 @@ h6 {
 } */
 
 .btn-about {
-  font-family: poppins;
-  /* text-transform: uppercase; */
+  font-family: Verdana;
+  text-transform: uppercase;
   font-weight: 600;
   font-size: 12px;
   letter-spacing: 1px;
@@ -462,12 +462,12 @@ h6 {
   border-radius: 60px;
   transition: 0.10s;
   margin-top: 20px;
-  color: #05e8f8;
-  background: #3f0402;
+  color: #1799C0;
+  background: whitesmoke;
 }
 
 .btn-about:hover {
-  background: #3f0402;
+  background: white;
 }
 
 @media (min-width: 1024px) {
@@ -656,7 +656,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.8s;
-  background-color: #681212;
+  background-color: #1799C0;
 }
 
 /*--------------------------------------------------------------
@@ -1268,17 +1268,17 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #681212;
+  background: #1799C0;
   border: 0;
   padding: 10px 30px 12px 30px;
-  color: #3ccbf7;
+  color: #681212;
   transition: 0.4s;
   border-radius: 50px;
   font-family: Verdana;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #3f0b0b;
+  background: #25c6f7;
 }
 
 @keyframes animate-loading {
@@ -1300,6 +1300,7 @@ section {
   color: #222222;
   font-size: 14px;
   text-align: center;
+  visibility: hidden;
 }
 
 #footer .credits {

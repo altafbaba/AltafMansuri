@@ -130,6 +130,10 @@ h6 {
   color: rgb(104, 18, 18);
   font-family: anta;
   font-weight: bolder;
+  background: linear-gradient(to right, #f7126a, #ffeb07,#ff00eb);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip:text;
+  
 }
 
 #header .logo img {

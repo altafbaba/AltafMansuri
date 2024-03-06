@@ -8,12 +8,12 @@ body {
 }
 
 a {
-  color: #34b7a7;
+  color: #ffffff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #51cdbe;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -110,29 +110,32 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #1799c0;
-  /* box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08); */
+  background: #ffffff;
+  box-shadow: none;
   z-index: 997;
   padding: 15px 0;
 }
 
 #header .logo {
-  font-size: 32px;
-  margin: 0;
+  font-size: 35px;
+  margin: 5px;
   padding: 0;
-  line-height: 1;
-  font-weight: 400;
-  letter-spacing: 2px;
+  /* line-height: 1; */
+  font-weight: bolder;
+  /* letter-spacing: 2px; */
   text-transform: uppercase;
 }
 
 #header .logo a {
-  color: rgb(104, 18, 18);
+  /* color: rgb(104, 18, 18); */
   font-family: anta;
-  font-weight: bolder;
-  background: linear-gradient(to right, #f7126a, #ffeb07,#ff00eb);
+  /* background: linear-gradient(to right, #f7126a, #ffeb07,#ff00eb);
   -webkit-text-fill-color: transparent;
-  -webkit-background-clip:text;
+  -webkit-background-clip:text; */
+
+  /* text-shadow: 0 0 10px #02fdf5, 0 0 10px #ff00eb; */
+  text-shadow: 0 0 10px #fa0060, 0 0 10px #ff00eb;
+  /* text-shadow: 0 0 10px rgb(22, 75, 248), 0 0 10px rgb(17, 14, 14); */
   
 }
 
@@ -154,16 +157,16 @@ h6 {
 }
 
 .header-social-links a {
-  color: rgb(104, 18, 18);;
-  padding-left: 6px;
-  display: inline-block;
-  line-height: 0px;
+   color: rgb(14, 13, 13);
+  padding-left: 6px; 
+   display: inline-block; 
+   line-height: 0px;
   transition: 0.3s;
   font-size: 16px;
 }
 
 .header-social-links a:hover {
-  color: rgb(80, 21, 21);
+  color: black;
 }
 
 /*--------------------------------------------------------------
@@ -197,7 +200,7 @@ h6 {
   
   font-size: 15px;
   font-weight: 500;
-  color: rgb(104, 18, 18);
+  color: #33C9F7;
   font-family: verdana;
   font-weight: bolder;
   white-space: nowrap;
@@ -219,7 +222,7 @@ h6 {
   height: 2px;
   bottom: -5px;
   left: 0;
-  background-color: rgb(104, 18, 18) ;
+  background-color: #1cafdb ;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -236,7 +239,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color:  rgb(138, 34, 34);
+  color:  #1cafdb;
 }
 
 .navbar .dropdown ul {
@@ -424,8 +427,14 @@ h6 {
   height: 100vh;
   background: url("../img/landing\ page.svg");
   background-size:cover;
-  background-color: #1799c0;
+ ;
   /* opacity: 0.95; */
+  
+}
+.hero h1 {
+  font-size: 50px;
+  line-height: 56px;
+  
   
 }
 
@@ -448,16 +457,16 @@ h6 {
   
 }
 
-/* .hero h2 {
+.hero h2 {
   color: #6f6f6f;
   margin: 10px 0 0 0;
   font-size: 22px;
   font-family: Anta;
-} */
+}
 
 .btn-about {
-  font-family: Verdana;
-  text-transform: uppercase;
+  font-family: Poppins;
+  /* text-transform: uppercase; */
   font-weight: 600;
   font-size: 12px;
   letter-spacing: 1px;
@@ -466,12 +475,13 @@ h6 {
   border-radius: 60px;
   transition: 0.10s;
   margin-top: 20px;
-  color: #1799C0;
-  background: whitesmoke;
+  color: white;
+  background: #33c9f7;
+
 }
 
 .btn-about:hover {
-  background: white;
+  background: #03bef7;
 }
 
 @media (min-width: 1024px) {
@@ -492,14 +502,14 @@ h6 {
   }
 
   #hero h1 {
-    font-size: 50px;
+    font-size: 40px;
     line-height: 36px;
   }
 
-  /* #hero h2 {
+  #hero h2 {
     font-size: 18px;
     line-height: 24px;
-  } */
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1272,17 +1282,17 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #1799C0;
+  background: #33C9F7;
   border: 0;
   padding: 10px 30px 12px 30px;
-  color: #681212;
+  color: white;
   transition: 0.4s;
   border-radius: 50px;
   font-family: Verdana;
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #25c6f7;
+  background: #1499c2;
 }
 
 @keyframes animate-loading {
@@ -1427,6 +1437,7 @@ font-family: Verdana;
   font-family: anta;
  font-weight: bolder;
   color: #3f0402;
+  font-size: 50px;
   
 
 }
@@ -1435,6 +1446,7 @@ font-family: Verdana;
   font-style:italic;
   color: #3f0402;
   font-weight:400;
+  font-size: 30px;
 }
 
 .vectorIMG{

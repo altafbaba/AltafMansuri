@@ -29,7 +29,10 @@
       rel="stylesheet"
     />
 
-    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anta&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
@@ -86,12 +89,18 @@
         <div class="header-social-links">
           <a
             href="https://github.com/altafbaba?tab=overview&from=2024-01-01&to=2024-01-29"
-            class="github"
-            
-            ><i class="bi bi-github" ></i
+            ><i style="display: flex; height: 25px; width: 25px"
+              ><img src="/assets/img/GitHub-Logo.wine.svg" alt="" /></i
           ></a>
-          <a href="https://www.upwork.com/freelancers/~01c732e937a702b15f?mp_source=share"> <i style="display: flex; height: 20px; width: 20px; padding-top: 4px;"><img src="/Altaf/assets/img/upwork logo.svg" alt="" sizes="1px" srcset=""></i></a>
-        <a href="https://twitter.com/Altaf7258" class="twitter"> <i style="display: flex; height: 20px; width: 20px; padding-top: 4px;"><img src="/Altaf/assets/img/twitter-logo.svg" alt="" sizes="1px" srcset=""></i></a>
+          <a
+            href="https://www.upwork.com/freelancers/~01c732e937a702b15f?mp_source=share"
+            ><i style="display: flex; height: 20px; width: 20px"
+              ><img src="/assets/img/upwork logo.svg" alt="" /></i
+          ></a>
+          <a href="https://twitter.com/Altaf7258"
+            ><i style="display: flex; height: 20px; width: 20px"
+              ><img src="/assets/img/twitter-logo.svg" alt="" /></i
+          ></a>
         </div>
       </div>
     </header>
@@ -100,34 +109,33 @@
     <!-- ======= Hero Section ======= -->
     <section id="hero">
       <div
-        class="d-flex flex-column align-items-center  "
+        class="d-flex flex-column align-items-center"
         data-aos="zoom-in"
         data-aos-delay="150"
-        style="margin-top: 120px;"
-        >
+        style="margin-top: 120px"
+      >
         <h1 class="fontAntaheader">Altaf Mansuri</h1>
 
-  <h2 class="fontChakra" >
+        <h2 class="fontChakra">
           I'm not just a coder; I'm a problem solver, an architect of ideas, and
           a relentless learner.
         </h2>
         <a href="about.html" class="btn-about">About Me</a>
       </div>
-     
     </section>
     <script>
       let btns = document.querySelectorAll("a");
-      
-      btns.forEach((btn)=>{
-        btn.onmousemove = function(e){
+
+      btns.forEach((btn) => {
+        btn.onmousemove = function (e) {
           let x = e.pageX - btn.offsetLeft;
           let y = e.pageY - btn.offsetTop;
 
-          btn.style.setProperty("--x", x +"px");
-          btn.style.setProperty("--y", y +"px")
-        }
-      })
-    </script> 
+          btn.style.setProperty("--x", x + "px");
+          btn.style.setProperty("--y", y + "px");
+        };
+      });
+    </script>
     <!-- End Hero -->
 
     <!-- ======= Footer ======= -->
